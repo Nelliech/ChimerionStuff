@@ -2,7 +2,7 @@
 
 namespace ChimerionStuffApi.Models
 {
-    public abstract class BasicStuff :BasicEntity
+    public abstract class BasicStuff : BasicEntity
     {
         [Required]
         public string Name { get; set; }
